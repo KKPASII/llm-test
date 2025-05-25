@@ -229,7 +229,6 @@ def chunk_file():
         current_metadata_token_count = title_tokens + author_tokens + keywords_tokens + genres_tokens
 
         # 3. 각 chunk에 메타데이터 연결하여 최종 데이터 생성
-        # 현재 도서의 메타데이터
         meta_data = {
             "title": title,
             "author": author,
